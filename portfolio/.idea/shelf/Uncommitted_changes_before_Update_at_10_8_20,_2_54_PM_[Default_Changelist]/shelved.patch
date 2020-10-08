@@ -1,0 +1,108 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"bc6c1390-0770-49a5-99ad-aec1df8c92f7\" name=\"Default Changelist\" comment=\"\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"CSS File\" />\n        <option value=\"HTML File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"ProjectId\" id=\"1ge9nmzICX1BrBLgSxZB5LCV46x\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$\" />\n    </key>\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/img\" />\n    </key>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"bc6c1390-0770-49a5-99ad-aec1df8c92f7\" name=\"Default Changelist\" comment=\"\" />\n      <created>1598464360705</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1598464360705</updated>\n      <workItem from=\"1598464361882\" duration=\"1844000\" />\n      <workItem from=\"1598567502288\" duration=\"6005000\" />\n      <workItem from=\"1598666986951\" duration=\"3964000\" />\n      <workItem from=\"1598753874750\" duration=\"599000\" />\n      <workItem from=\"1598911694905\" duration=\"6559000\" />\n      <workItem from=\"1599089110646\" duration=\"3086000\" />\n      <workItem from=\"1599165746753\" duration=\"5767000\" />\n      <workItem from=\"1600009374885\" duration=\"7399000\" />\n      <workItem from=\"1600118571257\" duration=\"5138000\" />\n      <workItem from=\"1601415457912\" duration=\"701000\" />\n      <workItem from=\"1601429826135\" duration=\"1611000\" />\n      <workItem from=\"1601476351421\" duration=\"93000\" />\n      <workItem from=\"1601478627522\" duration=\"118000\" />\n      <workItem from=\"1601500983577\" duration=\"6000\" />\n      <workItem from=\"1601502708204\" duration=\"5000\" />\n      <workItem from=\"1602181755440\" duration=\"28000\" />\n      <workItem from=\"1602181906604\" duration=\"37000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"453\" y=\"146\" key=\"#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog\" timestamp=\"1601475136385\">\n      <screen x=\"65\" y=\"24\" width=\"1301\" height=\"744\" />\n    </state>\n    <state x=\"453\" y=\"146\" key=\"#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/65.24.1301.744@65.24.1301.744\" timestamp=\"1601475136385\" />\n    <state x=\"502\" y=\"154\" width=\"424\" height=\"482\" key=\"FileChooserDialogImpl\" timestamp=\"1602181780731\">\n      <screen x=\"65\" y=\"24\" width=\"1301\" height=\"744\" />\n    </state>\n    <state x=\"502\" y=\"154\" width=\"424\" height=\"482\" key=\"FileChooserDialogImpl/65.24.1301.744@65.24.1301.744\" timestamp=\"1602181780731\" />\n    <state x=\"422\" y=\"24\" width=\"944\" height=\"469\" key=\"dock-window-1\" timestamp=\"1598466205951\">\n      <screen x=\"65\" y=\"24\" width=\"1301\" height=\"744\" />\n    </state>\n    <state x=\"422\" y=\"24\" width=\"944\" height=\"469\" key=\"dock-window-1/65.24.1301.744@65.24.1301.744\" timestamp=\"1598466205951\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 781196a5f34198550845398e51f6f246f8a6efd1)
++++ .idea/workspace.xml	(date 1602183228661)
+@@ -1,7 +1,32 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="BranchesTreeState">
++    <expand>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++    </expand>
++    <select>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++    </select>
++  </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="bc6c1390-0770-49a5-99ad-aec1df8c92f7" name="Default Changelist" comment="" />
++    <list default="true" id="bc6c1390-0770-49a5-99ad-aec1df8c92f7" name="Default Changelist" comment="&quot;Add website files&quot;" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -15,7 +40,11 @@
+       </list>
+     </option>
+   </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
++  </component>
+   <component name="ProjectId" id="1ge9nmzICX1BrBLgSxZB5LCV46x" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+@@ -67,11 +96,52 @@
+       <workItem from="1601502708204" duration="5000" />
+       <workItem from="1602181755440" duration="28000" />
+       <workItem from="1602181906604" duration="37000" />
++      <workItem from="1602182818502" duration="411000" />
+     </task>
++    <task id="LOCAL-00001" summary="&quot;Add website files&quot;">
++      <created>1602183211094</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1602183211094</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State>
++              <option name="CUSTOM_BOOLEAN_PROPERTIES">
++                <map>
++                  <entry key="Show.Git.Branches" value="true" />
++                </map>
++              </option>
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="origin/master" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="&quot;Add website files&quot;" />
++    <option name="LAST_COMMIT_MESSAGE" value="&quot;Add website files&quot;" />
+   </component>
+   <component name="WindowStateProjectService">
+     <state x="453" y="146" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601475136385">
