@@ -151,11 +151,6 @@ header ul li a
     max-width: 50%;
     padding: 0 4px;
 }
-.portfolioColumn img
-{
-    margin-top: 8px;
-    vertical-align: middle;
-}
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media (max-width: 800px) {
     .portfolioColumn {
@@ -170,3 +165,32 @@ header ul li a
         max-width: 100%;
     }
 }
+
+.portfolioColumn img
+{
+    width: 100%;
+    opacity: 1;
+    /*filter: alpha(opacity=100);*/
+}
+
+.portfolioColumn .project .project_text
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    visibility: hidden;
+}
+.portfolioColumn .project:hover
+{
+    opacity: .5;
+    filter: alpha(opacity=100);
+}
+.project:hover .project_text
+{
+    opacity: 1;
+    filter: alpha(opacity=100);
+    visibility: visible;
+}
+
