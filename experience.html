@@ -1,22 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <title>Experience</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <div class="toggle"></div>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="aboutme.html">About</a></li>
-            <li><a href="#">Experience</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </header>
-
-</body>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Experience</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="toggle"></div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About</a></li>
+                <li><a href="#">Experience</a></li>
+                <li><a href="Annabelle's%20Resume.pdf">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </header>
+        <section class="experience">
+            <div class="heading">
+                <br><h2>Experience</h2><br>
+            </div>
+            <div class="project_content">
+                <div class="project_pic">
+                    <img src="img/calanus.jpg" alt="Calanus finmarchicus" class="img"/>
+                </div>
+                <div class="project_description_left">
+                    <h3>Building a Plankton Identification Algorithm in MATLAB</h3><br>
+                    <p>This is probably my favorite project I've ever done. As a final project for the
+                    linear algebra unit in the course Quantitative Engineering Analysis, <b>I built an
+                    algorithm that uses linear algebra and Principal Component Analysis to identify plankton.</b>
+                    <br><br>To accomplish this, I used images of plankton from Woods Hole Oceanographic Institute
+                    (found <a href="https://darchive.mblwhoilibrary.org/handle/1912/7341">here</a>)
+                    to train and test the algorithm, and used MATLAB's Image Processing Toolbox to process the images.
+                    I used the Fourier descriptor method described in <a href="http://mmlab.ie.cuhk.edu.hk/archive/2006/JOE06_plankton.pdf">this paper</a>,
+                    followed by PCA to classify the plankton. <b>For full details on this, see my
+                    <a href="QEA%20Project%201%20Report.pdf">report</a></b></p>
+                </div>
+            </div>
+            <div class="project_content">
+                <div class="project_description_right">
+                    <h3>Building a Play Experience for 4th Graders</h3>
+                    <p></p>
+                </div>
+                <div class="project_pic">
+                    <img src="img/archerfish.jpg" alt="Annabelle in hat" class="img"/>
+                </div>
+            </div>
+        </section>
+    </body>
 </html>

@@ -19,15 +19,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28d26bfb-82d5-4a80-b140-171acb571f50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/experience.html" afterDir="false" />
+    <list default="true" id="28d26bfb-82d5-4a80-b140-171acb571f50" name="Default Changelist" comment="Add experience page, remove portfolio from live site">
+      <change afterPath="$PROJECT_DIR$/Annabelle's Resume.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QEA Project 1 Report.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aboutme.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutme.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/experience.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/adcarhighquality.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/adcarhighquality.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/archerfish.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/archerfish.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/calanus.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/calanus.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/confident-hat.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/img/confident-hat.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/onshape.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/onshape.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/paddle.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/paddle.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/resume.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +71,10 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -80,8 +91,24 @@
       <workItem from="1602186008395" duration="1577000" />
       <workItem from="1602379623920" duration="1536000" />
       <workItem from="1602527249854" duration="4784000" />
-      <workItem from="1602547288591" duration="567000" />
+      <workItem from="1602547288591" duration="1226000" />
+      <workItem from="1602683965594" duration="1415000" />
+      <workItem from="1602781487861" duration="305000" />
+      <workItem from="1602786054735" duration="33000" />
+      <workItem from="1602816548583" duration="6673000" />
+      <workItem from="1602947036659" duration="905000" />
+      <workItem from="1603039270943" duration="1324000" />
+      <workItem from="1603042835035" duration="2597000" />
+      <workItem from="1603123210298" duration="645000" />
     </task>
+    <task id="LOCAL-00001" summary="Add experience page, remove portfolio from live site">
+      <created>1602547900637</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602547900637</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +126,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add experience page, remove portfolio from live site" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add experience page, remove portfolio from live site" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="314" y="58" width="800" height="675" key="#Intentions" timestamp="1602380013978">
       <screen x="65" y="24" width="1301" height="744" />
@@ -108,9 +139,17 @@
       <screen x="65" y="24" width="1301" height="744" />
     </state>
     <state x="180" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1301.744@65.24.1301.744" timestamp="1602181814180" />
+    <state x="453" y="146" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602947746375">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="453" y="146" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/65.24.1301.744@65.24.1301.744" timestamp="1602947746375" />
     <state x="503" y="155" key="FileChooserDialogImpl" timestamp="1602181903610">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
     <state x="503" y="155" key="FileChooserDialogImpl/65.24.1301.744@65.24.1301.744" timestamp="1602181903610" />
+    <state x="315" y="133" key="Vcs.Push.Dialog.v2" timestamp="1602547904289">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="315" y="133" key="Vcs.Push.Dialog.v2/65.24.1301.744@65.24.1301.744" timestamp="1602547904289" />
   </component>
 </project>
