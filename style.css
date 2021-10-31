@@ -7,26 +7,32 @@
     font-family: 'Poppins', sans-serif;
 }
 section {
-    padding: 100px;
+    padding: 30px 100px 100px 100px;
 }
+
+.background-spline {
+    position: absolute;
+    background: #fff96a;
+}
+
 .banner {
     position: relative;
     min-height: 100vh;
-    background: #fff96a;
+    background: none;
     background-size: cover;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .banner h2 {
-    font-size: 3em;
+    font-size: 2.5em;
     color: black;
     font-weight: 500;
     line-height: 1.5em;
 }
 .banner h2 span {
-    font-size: 1.5em;
-    font-weight: 700;
+    font-size: 1.25em;
+    font-weight: 500;
 }
 .banner h3 {
     font-size: 1.5em;
@@ -42,6 +48,12 @@ section {
     align-items: center;
     border-radius: 2%;
 }
+
+.pic{
+    padding-left: 100px;
+    padding-right: 40px;
+}
+
 .btn {
     position: relative;
     background: #111111;
@@ -100,6 +112,7 @@ header ul li a {
 }
 .textBx {
     padding-right: 20px;
+    padding-top: 20px;
 }
 .content {
     display: flex;
@@ -121,19 +134,7 @@ header ul li a {
     padding-left: 20px;
 
 }
-.portfolio {
-    background: #fff96a;
-}
-.portfolioRow {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
-.portfolioColumn {
-    flex: 25%;
-    max-width: 50%;
-    padding: 0 4px;
-}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media (max-width: 800px) {
     .portfolioColumn {
