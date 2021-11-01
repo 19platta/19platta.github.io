@@ -4,6 +4,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Annabelle's Portfolio</title>
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -30,10 +34,24 @@
                 </clipPath>
             </defs>
         </svg>
+        <section class="spacer"></section>
+        <svg width="100%" height="auto" viewBox="0 0 1440 965" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_16:31)">
+                <path d="M-2 771C20 681 90 432 825 432C1196 432 1354 298 1440 158" stroke="black" stroke-width="3"/>
+                <path d="M-2 963C70 633 224 429 898 429C1286 429 1352 362 1446 264" stroke="black" stroke-width="3"/>
+                <path d="M-2 644C44 560 92.0001 430 824 430C1280 430 1404 104 1442 6" stroke="black" stroke-width="3"/>
+            </g>
+            <defs>
+                <clipPath id="clip0_16:31">
+                    <rect width="1440" height="965" fill="white" transform="matrix(1 0 0 -1 0 965)"/>
+                </clipPath>
+            </defs>
+        </svg>
+
     </div>
-    <section class="banner">
+    <section class="banner" style="padding-top: 140px">
         <div class="pic">
-            <img src="img/Mask%20Group.png" alt="Annabelle Platt" style="float:right;width:90%;height:auto;">
+            <img src="img/Mask%20Group.png" alt="Annabelle Platt" style="float:right;width:100%;height:auto;">
         </div>
         <div class="textBx">
             <h2>Hello, I'm <br><span>Annabelle Platt</span></h2>
@@ -41,6 +59,42 @@
                 I'm passionate about code, user experience design, and ethical engineering.  </h3>
         </div>
 
+    </section>
+    <section class="experience">
+        <div class="heading" >
+            <h2><span>Work Experience</span></h2><br>
+        </div>
+        <div class="row row-buffer">
+            <div class="col-9">
+                <h3 id="Duro">Duro Labs</h3>
+                <p>I am currently a user experience consultant at <a href="durolabs.co">Duro Labs</a>,
+                    a cloud-based Product Lifecycle Management company.</p>
+                <p>I design, mockup, and user-test new features and feature improvements.
+                    My work is primarily done in Sketch, using Sketch Cloud
+                    for revision control. I also work with the developers as the feature is being implemented to
+                    resolve any UX questions that come up and to manually QA the feature once finished. Duro uses an agile development cycle of
+                    two week sprints, so I am comfortable working in an agile environment.</p>
+                <p>In addition to all this, I do graphic design and icon design to ensure
+                    a cohesive, professional look across the product.</p>
+            </div>
+            <div class="col project-pic align-self-center">
+                <img src="img/duro_logo.jpg" alt="Duro Labs logo" width="85%">
+            </div>
+        </div>
+        <div class="row row-buffer">
+            <div class="col-9">
+                <h3 id="Onshape">Onshape</h3>
+                <p>Onshape is a cloud-base CAD software changing the way engineers do CAD. I worked at
+                Onshape for the summers of 2020 and 2021. </p>
+                <p>During my first summer at Onshape I worked as a user experience design intern. </p>
+                <p>During my second summer at Onshape I worked as a software engineering intern on the
+                data management team. I worked with Java, HTML, CSS, and Typescript to fix bugs and implement
+                new features.</p>
+            </div>
+            <div class="col project-pic align-self-center">
+                <img src="img/onshape.png" alt="Onshape logo">
+            </div>
+        </div>
     </section>
 </body>
 </html>
