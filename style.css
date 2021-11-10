@@ -72,9 +72,10 @@ a {
     text-decoration: none;
 }
 
-.background-spline {
+.background {
     position: absolute;
     background: #fff96a;
+    width: 100%;
 }
 
 .bottom-buffer{
