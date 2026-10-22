@@ -1,231 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <title>Annabelle's Portfolio</title>
-    <link rel="stylesheet"
-          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-          crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <div class="toggle"></div>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="docs/Annabelle_Resume_Fall_2021.pdf">Resume</a></li>
-            <li><a href="https://github.com/19platta">Github</a></li>
-            <li><a href="https://www.linkedin.com/in/annabelle-platt-92b4a0178/">LinkedIn</a></li>
-        </ul>
-    </header>
-    <div class="background">
-        <svg viewBox="0 0 1440 987" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_11:14)">
-                <path d="M1 74.5C56 379 90 533 825 533C1196 533 1354 667 1440 807" stroke="black" stroke-width="2"/>
-                <path d="M81.5 74C95.5 368 162 536 898 536C1286 536 1352 603 1446 701" stroke="black" stroke-width="2"/>
-                <path d="M-2 321C44 405 92.0001 535 824 535C1280 535 1404 861 1442 959" stroke="black" stroke-width="2"/>
-            </g>
-            <defs>
-                <clipPath id="clip0_11:14">
-                    <rect width="1440" height="987" fill="white"/>
-                </clipPath>
-            </defs>
-        </svg>
-        <section style="height: 620px"></section>
-        <svg height="auto" viewBox="0 0 1440 965" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_16:31)">
-                <path d="M-2 761C88 549 158 419 825 432C1195.93 439.23 1354 298 1440 158" stroke="black" stroke-width="3"/>
-                <path d="M-2 891C102 585 202 429 898 429C1286 429 1352 362 1446 264" stroke="black" stroke-width="3"/>
-                <path d="M-2 625C154 401 288 430 824 430C1280 430 1404 104 1442 6" stroke="black" stroke-width="3"/>
-            </g>
-            <defs>
-                <clipPath id="clip0_16:31">
-                    <rect width="1440" height="965" fill="white" transform="matrix(1 0 0 -1 0 965)"/>
-                </clipPath>
-            </defs>
-        </svg>
-        <section style="height: 0"></section>
-        <svg height="auto" viewBox="0 0 1440 987" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_22:2)">
-                <path d="M-4 203C48 329 90 533 825 533C1196 533 1354 667 1440 807" stroke="black" stroke-width="3"/>
-                <path d="M2 33C28 275 154 536 898 536C1286 536 1352 603 1446 701" stroke="black" stroke-width="3"/>
-                <path d="M-2 321C44 405 92.0001 535 824 535C1280 535 1404 861 1442 959" stroke="black" stroke-width="3"/>
-            </g>
-            <defs>
-                <clipPath id="clip0_22:2">
-                    <rect width="1440" height="987" fill="white"/>
-                </clipPath>
-            </defs>
-        </svg>
-        <footer>
-            <p>Website designed and built by Annabelle Platt, &copy 2021</p>
-        </footer>
-    </div>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Annabelle's Portfolio</title>
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav role="navigation">
+                <a href="#">About me</a>
+                <a href="#my-work">My work</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact me</a>
+                <a href="">Women who changed the world</a>
+            </nav>
+        </header>
 
-    <section class="banner" style="padding-top: 140px">
-        <div class="pic">
-            <img src="img/Mask%20Group.png" alt="Annabelle Platt" style="float:right;width:100%;height:auto;">
-        </div>
-        <div class="textBx">
-            <h2>Hello, I'm <br><span>Annabelle Platt</span></h2>
-            <h3>I'm a student at Olin College of Engineering, majoring in Engineering: Computing.
-                I'm passionate about code, user experience design, and ethical engineering.  </h3>
-            <a href="docs/Annabelle_Resume_Fall_2021.pdf" class="btn">View Resume</a>
-        </div>
-    </section>
+        <section class="banner">
+            <div>
+                <svg width="500" height="500">
+                    <mask id="mask"><circle r="187" cx="187" cy="250" fill="#ffffff"></circle></mask>
+                    <image height="100%" href="img/me/headshot.JPG" alt="Annabelle Platt" mask="url(#mask)"></image>
+                </svg>
+            </div>
+            <div>
+                <h1>Annabelle Platt</h1>
+                <p>I'm a software engineer passionate about activism, conservation, robots, and human centered design.</p>
+                <h2><a href="docs/Annabelle's Resume-2026.pdf">View Resume</a></h2>
+            </div>
+        </section>
 
-    <section class="experience">
-        <div class="row top-buffer">
-            <div class="col" >
-                <h2><span>Work Experience</span></h2><br>
+        <section class="work" id="my-work">
+            <div class="header-container">
+                <h2><span>My work</span></h2>
             </div>
-        </div>
-        <div class="row bottom-buffer">
-            <div class="col-9">
-                <h3 id="Duro"><b>Duro Labs</b></h3>
-                <p>I am currently a user experience consultant at <a href="https://www.durolabs.co/">Duro Labs</a>,
-                    a cloud-based Product Lifecycle Management company.</p>
-                <p>I design, mockup, and user-test new features and feature improvements.
-                    My work is primarily done in Sketch, using Sketch Cloud
-                    for revision control. I also work with the developers as the feature is being implemented to
-                    resolve any UX questions that come up and to manually QA the feature once finished.
-                    In addition to all this, I do graphic design and icon design to ensure
-                    a cohesive, professional look across the product.</p>
-            </div>
-            <div class="col project-pic align-self-center">
-                <img src="img/duro_logo.jpg" alt="Duro Labs logo" width="75%">
-            </div>
-        </div>
-        <div class="row bottom-buffer">
-            <div class="col-9 order-last">
+            <div class="work-option">
                 <h3 id="Onshape"><b>Onshape</b></h3>
-                <p>Onshape is a cloud-base CAD software changing the way engineers do CAD. I worked at
-                    Onshape for the summers of 2020 and 2021, first as a user experience intern, then as a software
-                    engineering intern. Both my designs and my code are currently in the Onshape product.
-                </p>
-                <p>During my first summer at Onshape I worked as a user experience design intern. I identified key elements
-                    from user feature requests, then used Figma to create mockups and test them out on both other Onshape
-                    employees and real Onshape users. Based on the test results and feedback from design reviews, I
-                    iterated on the mockups until I found the best solution. I wrote an article about my experience and my
-                    views on UX design which can be found
-                    <a href="https://www.linkedin.com/pulse/users-experience-how-onshape-does-ux-right-annabelle-platt/">here</a>.
-                </p>
-                <p>During my second summer at Onshape I worked as a software engineering intern on the
-                    data management team. I worked with Java, HTML, CSS, and Typescript to fix bugs and implement
-                    new features. I learned to navigate and debug in a large code base, submit and contribute to code reviews,
-                    and work with Git in a professional
-                    environment.
-                </p>
-            </div>
-            <div class="col project-pic align-self-center">
-                <img src="img/onshape.png" alt="Onshape logo" width="80%">
-            </div>
-        </div>
-        <div class="row bottom-buffer">
-            <div class="col-9">
-                <h3 id="IRWA"><b>Ipswich River Watershed Association</b></h3>
-                <p>Ipswich River Watershed Association is an organization that seeks to protect the Ipswich River
-                    through legislation, conservation, and education.</p>
-                <p>I worked at IRWA during the summer of 2019 as an education apprentice. During my time there
-                    I worked with summer camps and educational groups, leading paddles on the Ipswich River
-                    and teaching about water conservation. I also visited local farmer's markets and attended
-                    other outreach events to teach children and adults about the river, where their water comes
-                    from, the importance of conserving it, and the dangers of stormwater. In my spare time,
-                    I worked on developing the organization’s new website and updating resources about town water
-                    systems to make water quality information more accessible to the public.
-                </p>
-            </div>
-            <div class="col project-pic align-self-center">
-                <img src="img/paddle.jpg" alt="Annabelle about to lead a paddle" width="100%">
-            </div>
-        </div>
-        <div class="row bottom-buffer">
-            <div class="col-8 order-last">
-                <h3 id="ADI"><b>Analog Devices</b></h3>
-                <p>During the summer of 2018 I worked as a robotics intern at Analog Devices,
-                    building RC cars to use as testbeds for developing autonomous vehicle sensors.
-                    This was my first big exposure to deciphering documentation and applying it to
-                    my own project. My job was primarily in adjusting the hardware and electrical
-                    systems to optimize the car for office testing. I designed circuits to integrate the components
-                    and CADed the structural housing. I also wrote Python scripts to interact with the
-                    Robot Operating System (ROS) and learned to develop in a Unix system.
-                </p>
-            </div>
-            <div class="col-3 project-pic align-self-center">
-                <img src="img/adcar.png" alt="An RC car from above" width="100%">
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="container top-buffer">
-            <div class="row bottom-buffer top-buffer">
-                <div class="col offset-9 text-right" >
-                    <h2><span>Projects</span></h2><br>
+                <p>September 2023 - present, Summer 2021, Summer 2020 </p>
+                <div class="work-content">
+                    <div>
+                        <img src="img/onshape.png" alt="Onshape logo" class="work-logo">
+                    </div>
+                    <div class="work-description">
+                        <p>Onshape is a cutting edge cloud-based CAD software.</p>
+                        <p>I am currently a senior software engineer on Onshape's Data Management team. 
+                            Prior to joining full time, I interned as a user experience intern and then as a software
+                            engineering intern.
+                        </p>
+                        <p>In my current role I work fullstack. I use typescript, Angular, and HTML/CSS/LESS
+                            to develop front end features and make API calls. On the back end, I use Java and MongoDB to develop
+                            and maintain REST API endpoints, optimize database queries, and manage data. I am very comfortable
+                            specifically in the area between the front and the back end, and managing how they interact. 
+                            In addition, I work with the support team to troubleshoot and solve user tickets. 
+                        </p>
+                        <p>During my UX internship I identified key elements
+                            from user feature requests, then used Figma to create mockups and test them on real Onshape users. 
+                            I iterated on the mockups based on the feedback and handed the designs off 
+                            to a developer to implement. I wrote an article about my experience and my
+                            thoughts on UX design. Read it
+                            <a href="https://www.linkedin.com/pulse/users-experience-how-onshape-does-ux-right-annabelle-platt/">here</a>.
+                        </p>
+                        <p>During my software engineering internship I worked on the data management team. 
+                            I worked with Java, HTML, CSS, and Typescript to fix bugs and implement
+                            new features. I learned to debug and collaborate with Git in a large code base, 
+                            write production quality code, and submit and contribute to code reviews.
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-4 project-pic">
-                    <a href="https://github.com/19platta/misguided-the-game">
-                        <img src="img/misguided.png" alt="A pixel art book with the word Misguided over it" width="100%">
-                        <h3 class="top-buffer"><b>Misguided: The Game</b></h3>
-                    </a>
-                    <p class="bottom-buffer">An interactive, story-based game, built from scratch in Python.</p>
-
-                    <a href="https://youtu.be/htyFc_vHnVc">
-                        <img src="img/ode.png" alt="Annabelle with arm and leg extended" width="100%">
-                        <h3><b>Olin Dance Ensemble</b></h3>
-                    </a>
-                    <p>The first (virtual) performance of Olin Dance Ensemble, founded and choreographed by me.</p>
-
+            <div class="work-option">
+                <h3 id="Duro"><b>Duro Labs</b></h3>
+                <p>December 2021 - December 2022</p>
+                <div class="work-content">
+                    <div>
+                        <img src="img/duro_logo.jpg" alt="Duro Labs logo" class="work-logo">
+                    </div>
+                
+                    <div class="work-description">
+                        <p><a href="https://www.durolabs.co/">Duro Labs</a> is a cloud-based Product Lifecycle Management company</p>                        
+                        <p>I worked at Duro as a user experience and graphic design consultant.</p>
+                        <p>I designed, mocked up, and user-tested new features and feature improvements. My work was primarily done in Sketch,
+                            using Sketch Cloud for revision control. I also worked with the developers 
+                            to resolve any UX questions that come up and to manually QA the feature once finished.
+                            In addition, I did graphic design and icon design to ensure a cohesive, professional look across the product.
+                        </p>
+                    </div>
                 </div>
+            </div>
+            <div class="work-option">
+                <h3 id="mathworks"><b>MathWorks</b></h3>
+                <p>Summer 2022</p>
+                <div class="work-content">
+                    <div>
+                        <img src="img/mathworks.jpg" alt="MathWorks logo" class="work-logo">
+                    </div>
+                    <div class="work-description">
+                        <p><a href="https://www.mathworks.com/">MathWorks</a> develops software for scientists and engineers. Their
+                            products include MATLAB and Simulink.</p>                        
+                        <p>I worked at MathWorks as a QA intern on the MATLAB online team. I refactored performance tests measuring 
+                            metrics like load time and sign in time to improve efficiency. I built a dashboard to analyze and 
+                            display those metrics for the team to quickly access test results. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="work-option">
+                <h3 id="unruly"><b>Unruly Splats</b></h3>
+                <p>January 2022 - June 2022</p>
+                <div class="work-content">
+                    <div>
+                        <img src="img/unrulysplats.png" alt="Unruly Splats logo" class="work-logo">
+                    </div>
+                
+                    <div class="work-description">
+                        <p><a href="https://www.unrulysplats.com/">Unruly Splats</a> is an educational company bringing STEM education to children through
+                        a combination of programming and physical interactive play.</p>                        
+                        <p>I worked as a consultant for Unruly Splats to develop a plan to make the sit accessible for blind and low vision users. 
+                            I researched screen reader best practices, how other groups had adapted similar applications, and 
+                            delved into the Unruly app to determine the current state of accessibility. 
+                            I created mockups and compiled my research and recommendations into a report which can be found 
+                            <a href="docs/Unruly Screen Reader Recommendations Report.pdf">here.</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="work-option">
+                <h3 id="irwa"><b>Ipswich River Watershed Association</b></h3>
+                <p>Summer 2019</p>
+                <div class="work-content">
+                    <div>
+                        <img src="img/paddle.jpg" alt="Annabelle standing in a group with a kayak paddle" class="work-logo">
+                    </div>
+                
+                    <div class="work-description">
+                        <p><a href="https://www.ipswichriver.org/">Ipswich River Watershed Association</a> (IRWA) is an organization 
+                            that seeks to protect the Ipswich River through legislation, conservation, and education.
+                        </p>
+                        <p>I worked at IRWA during the summer of 2019 as an education apprentice.
+                            I visited summer camps and educational groups, leading paddles on the Ipswich River
+                            and teaching about water conservation. I developed educational resources about the river
+                            and went to community events to talk to people about where their water comes
+                            from, the importance of conserving it, and the dangers of stormwater runoff. 
+                        </p>
+                        <p>In my spare time, I worked on developing the organization’s new website and updating resources 
+                            to make water quality information more accessible to the public.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="work-option">
+                <h3 id="adi"><b>Analog Devices</b></h3>
+                <p>Summer 2018</p>
+                <div class="work-content">
+                    <div>
+                        <img src="img/adcar.png" alt="An RC car from above" class="work-logo">
+                    </div>
+                
+                    <div class="work-description">
+                        <p><a href="https://www.analog.com/en/index.html">Analog Devices</a> is an electronics company that develops 
+                        chips and sensors.</p>
+                        <p>During the summer of 2018 I worked as a robotics intern at Analog Devices,
+                        building RC cars to use as testbeds for developing autonomous vehicle sensors.
+                        My job was primarily adapting the hardware and electrical systems to optimize the car 
+                        for office testing. I designed circuits to integrate the components, CADed the structural housing 
+                        in Onshape, and wrote Python scripts to interact with the Robot Operating System (ROS).
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                <div class="col-4 project-pic">
+        <section id="projects">
+            <div class="header-container">
+                <h2><span>Projects</span></h2>
+            </div>
+            <div class="project-grid">
+                <div class="project">
+                    <a href="https://github.com/ADE-Rights-and-Privacy/long-report-generator">
+                        <img src="img/piechart.png" alt="A pie chart showing citations per police department in Massachusetts">
+                        <h3><b>Racial Profiling in Traffic Stops</b></h3>
+                    </a>
+                    <p>A tool for public defenders to generate statistical analyses of racial profiling in police traffic stops.</p>
+                </div>
+                <div class="project">
                     <a href="docs/QEA%20Project%201%20Report.pdf">
-                        <img src="img/calanus.jpg" alt="Calanus finmarchicus" width="100%">
+                        <img src="img/plankton-pca.png" alt="Four figures showing plankton image processing from raw image to outline with centroid">
                         <h3><b>Plankton Identification</b></h3>
                     </a>
-                    <p>An algorithm that uses PCA to identify plankton species.
-                    </p>
+                    <p>An algorithm bult in MATLAB that uses PCA to identify plankton species.</p>
                 </div>
+                <div class="project">
+                    <a href="https://github.com/olincollege/SoftSysEmuWars/blob/main/reports/report.md">
+                        <img src="img/tetris.png" alt="A screenshot of a pixelated tetris game">
+                        <h3><b>CHIP-8 Emulator</b></h3>
+                    </a>
+                    <p>A CHIP-8 emulator I built from scratch in C that can run 8-bit games.</p>
+                </div>
+                <div class="project">
+                    <a href="https://github.com/olincollege/soft-sys-emu-ladies/blob/main/reports/report.md">
+                        <img src="img/gameboy.jpg" alt="An original GameBoy">
+                        <h3><b>GameBoy Emulator</b></h3>
+                    </a>
+                    <p>A partial GameBoy emulator written in C++.</p>
+                </div>
+                <div class="project">
+                    <a href="https://github.com/jackiezeng01/comprobo_road_navigation">
+                        <img src="img/neato-course.png" alt="A split screen showing the Neato's view on one side and the Neato on the course on the other">
+                        <h3><b>Robot Road Navigation</b></h3>
+                    </a>
+                    <p>A project to path plan and navigate a Neato robot autonomously through a course of signs and April tags, using ROS 2.</p>
+                </div>                        
+                <div class="project">
+                    <a href="https://github.com/19platta/robot_localization">
+                        <img src="img/neato.jpg" alt="A Neato robot">
+                        <h3><b>Robot Localization</b></h3>
+                    </a>
+                    <p>A project to localize and drive a Neato robot in ROS 2 using LIDAR scans and odometry.</p>
+                </div>    
+                <div class="project">
+                    <a href="https://www.cbsnews.com/boston/news/ipswich-eye-on-education-robotics-students-snotbot-drone/">
+                        <img src="img/snotbot.jpg" alt="High school Annabelle working on the Snotbot">
+                        <h3><b>Snotbot altimeter</b></h3>
+                    </a>
+                    <p>A device assisting the Snotbot pilot when flying over whale spray.</p>
+                </div>                  
+            </div>
+        </section>
 
-                <div class="col-4 project-pic">
-                    <a href="https://youtu.be/VqiU7-0uunQ">
-                        <img src="img/linerobot.jpg" alt="A small robot frame" width="100%">
-                        <h3 class="top-buffer"><b>Line-Following Robot</b></h3>
+        <section class="contact" id="contact">
+            <div class="header-container">
+                <h2><span>Contact me</span></h2>
+            </div>
+            <div class="contact-container">
+                <div class="contact-site">
+                    <a>
+                        <img src="img/email.svg" alt="Email icon"><br>
+                        <p><b>annabelleplatt23 (at) gmail.com</b></p> 
                     </a>
-                    <p>A line-following robot built using reflectivity sensors and proportional-derivative control.</p>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section class="">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 top-buffer contactSocial">
-                    <h2><span>Contact Me</span></h2><br>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-4">
-                    <img src="img/email.png" alt="Email icon" height="64px"><br>
-                    <br><h3><b>aplatt (at) olin.edu</b></h3>
-                </div>
-                <div class="col-4">
+                <div class="contact-site">
                     <a href="https://www.linkedin.com/in/annabelle-platt-92b4a0178/">
-                        <img src="img/linkedin.png" alt="LinkedIn logo"><br>
-                        <br><h3><b>LinkedIn</b></h3>
+                        <img src="img/linkedin.svg" alt="LinkedIn logo"><br>
+                        <p><b>LinkedIn</b></p>
                     </a>
                 </div>
-                <div class="col-4">
+                <div class="contact-site">
                     <a href="https://github.com/19platta">
-                        <img src="img/github.png" alt="Github logo"><br>
-                        <br><h3><b>Github</b></h3>
+                        <img src="img/github.svg" alt="Github logo"><br>
+                        <p><b>Github</b></p>
                     </a>
                 </div>
             </div>
-        </div>
-    </section>
-</body>
+        </section>
+    </body>
+    <div class="background">
+        <footer>
+            <p>Website designed and built by Annabelle Platt, &copy 2026</p>
+            <small>No AI was used in writing, designing, or developing this site. I do not give permission for AI to use the contents of this site as training material.</small>
+        </footer>
+    </div>
 </html>
